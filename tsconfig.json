@@ -1,0 +1,22 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "dist", "**/*.test.ts"],
+  "compilerOptions": {
+    "target": "ES2022",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "lib": ["esnext", "dom", "dom.iterable"],
+    "module": "ESNext",
+    "resolveJsonModule": true,
+    "allowImportingTsExtensions": true,
+    "moduleResolution": "bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "types": ["node", "vite/client"],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}

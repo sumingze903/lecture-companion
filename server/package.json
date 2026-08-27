@@ -1,0 +1,29 @@
+{
+  "name": "lecture-companion-server",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Translation API for Lecture Companion.",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_ENV=development PORT=${PORT:-8787} tsx ./src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsx ./build.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2",
+    "express": "^5.2.1",
+    "openai": "^6.27.0",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.5",
+    "esbuild": "^0.28.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.2"
+  }
+}

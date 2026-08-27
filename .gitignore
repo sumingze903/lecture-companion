@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.DS_Store
+.env
+.env.*
+!.env.example
+server/.env
+server/.env.*
+!server/.env.example
+*.log
+*.webm
+*.mp3
+*.wav
+*.m4a
+*.mp4
+coverage/

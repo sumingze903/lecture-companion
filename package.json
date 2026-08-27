@@ -1,0 +1,44 @@
+{
+  "name": "lecture-companion",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Open-source AI lecture companion for international students: live English transcription, Chinese translation hints, recording, notes, and summaries.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config vite.config.ts --host 0.0.0.0",
+    "build": "vite build --config vite.config.ts",
+    "preview": "vite preview --config vite.config.ts --host 0.0.0.0",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "lecture",
+    "transcription",
+    "translation",
+    "international-students",
+    "speech-recognition",
+    "openai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@radix-ui/react-toast": "^1.2.7",
+    "@radix-ui/react-tooltip": "^1.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.35.1",
+    "lucide-react": "^0.545.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwind-merge": "^3.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "@tailwindcss/vite": "^4.2.1",
+    "@types/node": "^25.3.5",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^5.1.4",
+    "tailwindcss": "^4.2.1",
+    "typescript": "^5.9.2",
+    "vite": "^7.3.1"
+  }
+}
